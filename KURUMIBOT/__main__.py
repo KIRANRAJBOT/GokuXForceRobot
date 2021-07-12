@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+I am an Anime themed group management bot. I will use my power and protect your group. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
@@ -70,7 +70,7 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
 TOKISAKI_IMG = "https://telegra.ph/file/d34d600d8f1cc834645d7.jpg"
-KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
+KURUMI_IMG = "https://telegra.ph/file/eada4ca328cb85d59cde7.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
@@ -198,7 +198,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚨 Support 🚨",
-                             url=f"https://t.me/GokuBotSupport"),
+                             url=f"https://t.me/XForceSupport"),
                          InlineKeyboardButton(
                              text="Wallpaper Channel",
                              url="https://t.me/AnimesWallpaper0")
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🔔 Updates of Goku🔔",
-                             url="https://t.me/GokuSupport")
+                             url="https://t.me/XForceBots")
                     ], 
                      [
                          InlineKeyboardButton(
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Zaphkiel!!!!\nI'm here with my Zaphkiel")
+                KURUMI_IMG, caption=f"Kamehamehaaaaa")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
