@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Kamehamehaaaaa")
+                KURUMI_IMG, caption=f"Kamehame...HAAAAAAAA!")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
