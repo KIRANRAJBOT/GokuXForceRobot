@@ -191,27 +191,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Goku to your group",
+                            text="☑️ sᴜᴍᴍᴏɴ ᴍᴇ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚨 Support 🚨",
+                             text="🚨 sᴜᴘᴘᴏʀᴛ 🚨",
                              url=f"https://t.me/XForceSupport"),
                          InlineKeyboardButton(
-                             text="Wallpaper Channel",
-                             url="https://t.me/AnimesWallpaper0")
+                             text="ᴅᴇᴠs 👨‍💻",
+                             url="https://t.me/XForceDevs")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="🔔 Updates of Goku🔔",
+                             text="🔔 ᴜᴘᴅᴀᴛᴇs ᴏғ ɢᴏᴋᴜ 🔔",
                              url="https://t.me/XForceBots")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WallpaperRequest07")
+                             text="📳 ᴀɴɪᴍᴇ ᴄʜᴀᴛ 📳",
+                             url="https://t.me/AnimeChatGOC")
                     ]]))
                      
                     
