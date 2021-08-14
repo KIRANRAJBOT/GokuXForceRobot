@@ -51,13 +51,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my power and protect your group. You can find my list of available commands with /help.
+Hi {}, ᴍʏ ɴᴀᴍᴇ ɪs {}! 
+.ɪ ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ. ɪ ᴡɪʟʟ ᴜsᴇ ᴍʏ ᴘᴏᴡᴇʀ ᴀɴᴅ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ. ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴍʏ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /ʜᴇʟᴘ.
 """
 
 HELP_STRINGS = """
-Son Goku is here! 
-I Use My Powers To Help Admins To Manage Their Groups! 
+sᴏɴ ɢᴏᴋᴜ ɪs ʜᴇʀᴇ!
+ɪ ᴜsᴇ ᴍʏ ᴘᴏᴡᴇʀs ᴛᴏ ʜᴇʟᴘ ᴀᴅᴍɪɴs ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs!! 
 *Main* commands available :
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
