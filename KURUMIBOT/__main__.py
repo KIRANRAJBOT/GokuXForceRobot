@@ -69,8 +69,8 @@ sᴏɴ ɢᴏᴋᴜ ɪs ʜᴇʀᴇ!
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/d34d600d8f1cc834645d7.jpg"
-KURUMI_IMG = "https://telegra.ph/file/eada4ca328cb85d59cde7.mp4"
+TOKISAKI_IMG = "https://telegra.ph/file/f8d40febe2074ff6e489f.mp4"
+KURUMI_IMG = "https://telegra.ph/file/3ca11ef54e72e50c2e874.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
@@ -191,17 +191,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ sᴜᴍᴍᴏɴ ᴍᴇ",
+                            text="sᴜᴍᴍᴏɴ ᴍᴇ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚨 sᴜᴘᴘᴏʀᴛ 🚨",
+                             text="sᴜᴘᴘᴏʀᴛ",
                              url=f"https://t.me/XForceSupport"),
                          InlineKeyboardButton(
-                             text="ᴅᴇᴠs 👨‍💻",
-                             url="https://t.me/XForceDevs")
+                             text="Vc List ",
+                             url="https://telegra.ph/Goku-Vc-Command-List-08-22")
                     ], 
                      [
                          InlineKeyboardButton(
