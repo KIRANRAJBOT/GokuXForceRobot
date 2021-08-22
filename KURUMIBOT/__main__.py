@@ -64,12 +64,12 @@ sᴏɴ ɢᴏᴋᴜ ɪs ʜᴇʀᴇ!
  • /settings:
    • ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
    • ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs. ғᴏʀ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ.
-ғᴏʀ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ / [or](https://telegra.ph/file/da8e96d45bea5ed43ca46.jpg) ! 
+ғᴏʀ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇ / [or](https://telegra.ph/file/d1afb2bc2a753710aa899.jpg) ! 
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/f8d40febe2074ff6e489f.mp4"
+TOKISAKI_IMG = "https://telegra.ph/file/bbc8b19ea5b9ba46a3c2f.jpg"
 KURUMI_IMG = "https://telegra.ph/file/3ca11ef54e72e50c2e874.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
