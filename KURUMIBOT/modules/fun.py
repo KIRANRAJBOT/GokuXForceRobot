@@ -276,8 +276,8 @@ __help__ = """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
 RUNS_HANDLER = DisableAbleCommandHandler("runs", runs)
-SLAP_HANDLER = DisableAbleCommandHandler("bonk", slap)
-PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
+SLAP_HANDLER = DisableAbleCommandHandler("slap", slap)
+PAT_HANDLER = DisableAbleCommandHandler("bonk", pat)
 ROLL_HANDLER = DisableAbleCommandHandler("roll", roll)
 TOSS_HANDLER = DisableAbleCommandHandler("toss", toss)
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
