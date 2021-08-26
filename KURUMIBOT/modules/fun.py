@@ -253,7 +253,7 @@ def weebify(update: Update, context: CallbackContext):
 
 __help__ = """
  • `/runs`*:* reply a random string from an array of replies
- • `/slap`*:* bonk a user, or get bonk if not a reply
+ • `/slap`*:* slap a user, or get slapped if not a reply
  • `/shrug`*:* get shrug XD
  • `/table`*:* get flip/unflip :v
  • `/decide`*:* Randomly answers yes/no/maybe
