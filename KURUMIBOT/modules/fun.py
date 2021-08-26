@@ -253,7 +253,7 @@ def weebify(update: Update, context: CallbackContext):
 
 __help__ = """
  • `/runs`*:* reply a random string from an array of replies
- • `/bonk`*:* bonk a user, or get bonk if not a reply
+ • `/slap`*:* bonk a user, or get bonk if not a reply
  • `/shrug`*:* get shrug XD
  • `/table`*:* get flip/unflip :v
  • `/decide`*:* Randomly answers yes/no/maybe
@@ -264,7 +264,7 @@ __help__ = """
  • `/shout <keyword>`*:* write anything you want to give loud shout
  • `/weebify <text>`*:* returns a weebified text
  • `/sanitize`*:* always use this before /pat or any contact
- • `/pat`*:* pats a user, or get patted
+ • `/bonk`*:* pats a user, or get patted
  • `/meme` *:* get random memes from reddit
  • `/hugs` or `/hug` *:* get hugged, hugs a user
  • `/wttr` <city/country name> *:* get weather details. 
@@ -304,8 +304,8 @@ dispatcher.add_handler(TABLE_HANDLER)
 
 __mod_name__ = "Fun"
 __command_list__ = [
-    "runs", "bonk", "roll", "toss", "shrug", "bluetext", "rlg", "decide",
-    "table", "pat", "sanitize", "shout", "weebify"
+    "runs", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide",
+    "table", "bonk", "sanitize", "shout", "weebify"
 ]
 __handlers__ = [
     RUNS_HANDLER, SLAP_HANDLER, PAT_HANDLER, ROLL_HANDLER, TOSS_HANDLER,
