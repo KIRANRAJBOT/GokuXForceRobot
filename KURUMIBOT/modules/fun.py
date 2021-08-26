@@ -264,7 +264,7 @@ __help__ = """
  • `/shout <keyword>`*:* write anything you want to give loud shout
  • `/weebify <text>`*:* returns a weebified text
  • `/sanitize`*:* always use this before /pat or any contact
- • `/bonk`*:* pats a user, or get patted
+ • `/bonk`*:* to bonk horny peoples
  • `/meme` *:* get random memes from reddit
  • `/hugs` or `/hug` *:* get hugged, hugs a user
  • `/wttr` <city/country name> *:* get weather details. 
