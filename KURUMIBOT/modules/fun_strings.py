@@ -150,6 +150,10 @@ PAT_GIFS = (
     "CgACAgUAAx0CSmswQAABBeX9YSfvh74ahgNpBN6LvzO3e4lOwBoAAswCAAI0DUBVLeXb7CMdkD4gBA",
 )
 
+PAT_TEMPLATES = (
+    "Federal Bonk Investigation Is Here Go to horny jail Nigga",
+)
+
 PAT_STICKERS = (
     "CAACAgQAAx0CSmswQAABBeYKYSfxZrydU771_1a3gBKXMz7ZrOkAAlkKAAI53_hRX2LQo6p8PusgBA",
     "CAACAgQAAx0CSmswQAABBeYRYSfyCBzTQYu0b48LmrgfpaUKzDkAAnsIAAKFKAABUlSdmEO9xyJeIAQ",
