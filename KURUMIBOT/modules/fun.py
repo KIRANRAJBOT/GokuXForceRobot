@@ -142,7 +142,7 @@ def pat(update: Update, context: CallbackContext):
             pat_type = "Text"
 
     if pat_type == "Text":
-        temp = random.choice(fun_strings.PAT_STICKERS)
+        temp = random.choice(fun_strings.PAT_TEMPLATES)
         reply = temp.format(user1=user1, user2=user2)
         reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
 
