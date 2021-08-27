@@ -144,11 +144,6 @@ SLAP_TEMPLATES = (
     "Goblin slayer slays {user2}",  #Goblin Slayer
 )
 
-PAT_TEMPLATES = (
-    "Go to horny jail Nigga",
-    "Go to horny jail baka",
-)
-
 PAT_GIFS = (
     "CgACAgUAAx0CSmswQAABBeX9YSfvh74ahgNpBN6LvzO3e4lOwBoAAswCAAI0DUBVLeXb7CMdkD4gBA",
     "CgACAgUAAx0CSmswQAABBeX9YSfvh74ahgNpBN6LvzO3e4lOwBoAAswCAAI0DUBVLeXb7CMdkD4gBA",
@@ -158,6 +153,7 @@ PAT_GIFS = (
 PAT_STICKERS = (
     "CAACAgQAAx0CSmswQAABBeYKYSfxZrydU771_1a3gBKXMz7ZrOkAAlkKAAI53_hRX2LQo6p8PusgBA",
     "CAACAgQAAx0CSmswQAABBeYRYSfyCBzTQYu0b48LmrgfpaUKzDkAAnsIAAKFKAABUlSdmEO9xyJeIAQ",
+    "CAACAgUAAx0CSmswQAABBehpYSiVMdJ-IR4DbTgnlQMj3Eoc_L0AAl0CAAIxytlX3RPW_6nYfYMgBA",
 )
 
 PING_STRING = (
