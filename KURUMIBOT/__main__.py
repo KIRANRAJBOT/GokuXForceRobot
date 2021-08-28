@@ -191,26 +191,26 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="sᴜᴍᴍᴏɴ ᴍᴇ",
+                            text="「 sᴜᴍᴍᴏɴ ᴍᴇ 」",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="sᴜᴘᴘᴏʀᴛ",
+                             text="「 sᴜᴘᴘᴏʀᴛ 」",
                              url=f"https://t.me/XForceSupport"),
                          InlineKeyboardButton(
-                             text="ᴠᴄ ʟɪsᴛ",
+                             text="「 ᴠᴄ ʟɪsᴛ 」",
                              url="https://telegra.ph/Goku-Vc-Command-List-08-22")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text=" ᴜᴘᴅᴀᴛᴇs ᴏғ ɢᴏᴋᴜ ",
+                             text="「 ᴜᴘᴅᴀᴛᴇs ᴏғ ɢᴏᴋᴜ 」 ",
                              url="https://t.me/XForceBots")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text=" ᴀɴɪᴍᴇ ᴄʜᴀᴛ ",
+                             text="「 ᴀɴɪᴍᴇ ᴄʜᴀᴛ 」",
                              url="https://t.me/AnimeChatGOC")
                     ]]))
                      
