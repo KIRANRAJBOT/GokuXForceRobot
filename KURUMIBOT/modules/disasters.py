@@ -63,7 +63,7 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        message.reply_text("This member is already a A Rank Hunter")
+        message.reply_text("This member is already a OFFICER")
         return ""
 
     if user_id in DEMONS:
@@ -529,15 +529,15 @@ Commands listed here only work for users with special access are mainly used for
 Group admins/group owners do not need these commands. 
 
  ╔ *List all special users:*
- ╠ `/aranks`*:* Lists all A Rank Hunters
- ╠ `/branks`*:* Lists all B Rank Hunters
- ╠ `/cranks`*:* Lists all C Rank Hunters
- ╠ `/dranks`*:* Lists all D Rank Hunters
- ╠ `/sranks`*:* Lists all S Rank Hunters
- ╠ `/addarank`*:* Adds a user to A Rank Hunter
- ╠ `/addbrank`*:* Adds a user to B Rank Hunter
- ╠ `/addcrank`*:* Adds a user to C Rank Hunter
- ╠ `/adddrank`*:* Adds a user to D Rank Hunter
+ ╠ `/aranks`*:* Lists all OFFICERS
+ ╠ `/branks`*:* Lists all STAFFS
+ ╠ `/cranks`*:* Lists all SOLDIERS
+ ╠ `/dranks`*:* Lists all POLICEMENS
+ ╠ `/sranks`*:* Lists all COLONELS
+ ╠ `/addarank`*:* Adds a user to OFFICER
+ ╠ `/addbrank`*:* Adds a user to STAFF
+ ╠ `/addcrank`*:* Adds a user to SOLDIER
+ ╠ `/adddrank`*:* Adds a user to POLICE
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
  ╔ *Ping:*
@@ -625,12 +625,12 @@ UNTIGER_HANDLER = CommandHandler(("removetiger" , "removecrank"), removetiger)
 UNWHITELIST_HANDLER = CommandHandler(("removewhitelist", "removedrank"),
                                      removewhitelist)
 
-WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "dranks"],
+WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "policemens"],
                                        whitelistlist)
-TIGERLIST_HANDLER = CommandHandler(["tigers" , "cranks"], tigerlist)
-SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "branks"], supportlist)
-SUDOLIST_HANDLER = CommandHandler(["sudolist", "aranks"], sudolist)
-DEVLIST_HANDLER = CommandHandler(["devlist", "sranks"], devlist)
+TIGERLIST_HANDLER = CommandHandler(["tigers" , "soldiers"], tigerlist)
+SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "staffs"], supportlist)
+SUDOLIST_HANDLER = CommandHandler(["sudolist", "officers"], sudolist)
+DEVLIST_HANDLER = CommandHandler(["devlist", "colonels"], devlist)
 
 dispatcher.add_handler(SUDO_HANDLER)
 dispatcher.add_handler(SUPPORT_HANDLER)
