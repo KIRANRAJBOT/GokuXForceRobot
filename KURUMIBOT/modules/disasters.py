@@ -448,7 +448,7 @@ def removetiger(update: Update, context: CallbackContext) -> str:
 @run_async
 @whitelist_plus
 def whitelistlist(update: Update, context: CallbackContext):
-    reply = "<b>Known D Rank Hunters 🐺:</b>\n"
+    reply = "<b>Known Policemens👮‍♂:</b>\n"
     bot = context.bot
     for each_user in WOLVES:
         user_id = int(each_user)
@@ -464,7 +464,7 @@ def whitelistlist(update: Update, context: CallbackContext):
 @run_async
 @whitelist_plus
 def tigerlist(update: Update, context: CallbackContext):
-    reply = "<b>Known C Rank Hunters 🐯:</b>\n"
+    reply = "<b>Known Soldiers 🎖️:</b>\n"
     bot = context.bot
     for each_user in TIGERS:
         user_id = int(each_user)
@@ -480,7 +480,7 @@ def tigerlist(update: Update, context: CallbackContext):
 @whitelist_plus
 def supportlist(update: Update, context: CallbackContext):
     bot = context.bot
-    reply = "<b>Known B Rank Hunters 👹:</b>\n"
+    reply = "<b>Known Staffs 👨‍🔬:</b>\n"
     for each_user in DEMONS:
         user_id = int(each_user)
         try:
@@ -496,7 +496,7 @@ def supportlist(update: Update, context: CallbackContext):
 def sudolist(update: Update, context: CallbackContext):
     bot = context.bot
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
-    reply = "<b>Known A Rank Hunters 🐉:</b>\n"
+    reply = "<b>Known Officers👨‍💼:</b>\n"
     for each_user in true_sudo:
         user_id = int(each_user)
         try:
@@ -512,7 +512,7 @@ def sudolist(update: Update, context: CallbackContext):
 def devlist(update: Update, context: CallbackContext):
     bot = context.bot
     true_dev = list(set(DEV_USERS) - {OWNER_ID})
-    reply = "<b>S Rank Hunters ⚡️:</b>\n"
+    reply = "<b>Colonels⚡:</b>\n"
     for each_user in true_dev:
         user_id = int(each_user)
         try:
@@ -529,15 +529,15 @@ Commands listed here only work for users with special access are mainly used for
 Group admins/group owners do not need these commands. 
 
  ╔ *List all special users:*
- ╠ `/aranks`*:* Lists all OFFICERS
- ╠ `/branks`*:* Lists all STAFFS
- ╠ `/cranks`*:* Lists all SOLDIERS
- ╠ `/dranks`*:* Lists all POLICEMENS
- ╠ `/sranks`*:* Lists all COLONELS
- ╠ `/addarank`*:* Adds a user to OFFICER
- ╠ `/addbrank`*:* Adds a user to STAFF
- ╠ `/addcrank`*:* Adds a user to SOLDIER
- ╠ `/adddrank`*:* Adds a user to POLICE
+ ╠ `/officers`*:* Lists all officers
+ ╠ `/staffs`*:* Lists all staffs
+ ╠ `/soldiers`*:* Lists all soldiers
+ ╠ `/policemens`*:* Lists all policemens
+ ╠ `/colonels`*:* Lists all colonels
+ ╠ `/addofficer`*:* Adds a user to OFFICER
+ ╠ `/addstaff`*:* Adds a user to STAFF
+ ╠ `/addsoldier`*:* Adds a user to SOLDIER
+ ╠ `/addpolice`*:* Adds a user to POLICE
  ╚ `Add dev doesnt exist, devs should know how to add themselves`
 
  ╔ *Ping:*
