@@ -674,7 +674,7 @@ def main():
             LOGGER.warning(e.message)
 
 
-    start_handler = DisableAbleCommandHandler("start", start, run_async=True)
+    start_handler = DisableAbleCommandHandler("start", start)
 
     help_handler = DisableAbleCommandHandler("help", get_help, run_async=True)
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_.*", run_async=True)
