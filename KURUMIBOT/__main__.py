@@ -77,37 +77,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey there, I'm [Eren Jaeger](https://telegra.ph/file/06355bb1cd9d0c53d1171.jpg)
-I am an Attack on Titan anime themed group management bot.
+ Hey there, I'm [Goku](https://telegra.ph/file/b63097c32ed337632e9ae.jpg)
+I am an anime themed group management bot.
 Built by weebs for weebs, I specialize in managing anime eccentric communities.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/FoundingTitanRobot?startgroup=true"),    
+            text="➕ Add Me", url="t.me/SonGokuXBot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
     [      
        InlineKeyboardButton(
-            text="📖 Quick Setup", url="https://t.me/foundingtitanupdates/4"),        
+            text="👨‍💻Staffs", url="https://t.me/XForceSquad/17"),        
           InlineKeyboardButton(
-            text="📋 ChangeLogs", url="https://t.me/FoundingTitanupdates"),
+            text="📋 Updates", url="https://t.me/XForceBots"),
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/Foundingtitansupport"),
+            text="🗣️ Support", url="https://t.me/XForceSupport"),
           InlineKeyboardButton(
-            text="🌐 Nexus Network", url="https://t.me/Nexus_Network",
+            text="🌐 X-Force Squad", url="https://t.me/XForceSquad",
     
          ),
     ],
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Eren Jaeger!
+Hey there, I'm Son Goku!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
