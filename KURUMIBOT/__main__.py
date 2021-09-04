@@ -709,7 +709,7 @@ def main():
 
     else:
         LOGGER.info("Eren is now alive and functioning")
-        updater.start_polling(timeout=15, read_latency=4, drop_pending_updates=True)
+        updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
         telethn.disconnect()
