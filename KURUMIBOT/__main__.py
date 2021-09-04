@@ -18,8 +18,7 @@ from KURUMIBOT import (
     dispatcher,
     StartTime,
     telethn,
-    updater,
-    pbot)
+    updater)
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
