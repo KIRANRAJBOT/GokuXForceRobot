@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from SaitamaRobot import (
+from KURUMIBOT import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -23,10 +23,10 @@ from SaitamaRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from SaitamaRobot.modules import ALL_MODULES
-from SaitamaRobot.modules.helper_funcs.chat_status import is_user_admin
-from SaitamaRobot.modules.helper_funcs.misc import paginate_modules
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from KURUMIBOT.modules import ALL_MODULES
+from KURUMIBOT.modules.helper_funcs.chat_status import is_user_admin
+from KURUMIBOT.modules.helper_funcs.misc import paginate_modules
+from KURUMIBOT.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
