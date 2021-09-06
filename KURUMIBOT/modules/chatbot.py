@@ -14,7 +14,6 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from KURUMIBOT.modules.mongo.chatbot_mongo import add_chat, get_session, remove_chat
 from KURUMIBOT import arq
 from KURUMIBOT.utils.pluginhelp import admins_only, edit_or_reply
 from KURUMIBOT import pbot as eren
