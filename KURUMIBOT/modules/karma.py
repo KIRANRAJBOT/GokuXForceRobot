@@ -1,6 +1,4 @@
 
-from KURUMIBOT.modules.mongo.karma_mongo import (update_karma, get_karma, get_karmas,
-                                   int_to_alpha, alpha_to_int)
 from KURUMI.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters
 
