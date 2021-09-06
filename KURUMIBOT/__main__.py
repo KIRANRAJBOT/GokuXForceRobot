@@ -77,9 +77,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey there, I'm [Goku](https://telegra.ph/file/b63097c32ed337632e9ae.jpg)
-I am an anime themed group management bot.
-Built by weebs for weebs, I specialize in managing anime eccentric communities.
+ Hey There, I'm [Goku](https://telegra.ph/file/0e7ab643f949630fbb63c.jpg)
+I Am An Anime Themed Group Management Bot.
+Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 """
 
 buttons = [
