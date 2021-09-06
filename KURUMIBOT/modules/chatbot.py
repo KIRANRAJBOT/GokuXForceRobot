@@ -76,7 +76,6 @@ async def hmm(client, message):
         await client.send_message(message, r)
 """
 
-@admins_only
 async def chatbot_status(_, message):
     global eren_chats
     if len(message.command) != 2:
