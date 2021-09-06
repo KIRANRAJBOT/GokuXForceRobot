@@ -14,7 +14,6 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from KURUMIBOT.utils.pluginhelp import admins_only, edit_or_reply
 
 translator = google_translator()
 
