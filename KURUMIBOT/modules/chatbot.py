@@ -76,9 +76,6 @@ async def hmm(client, message):
         await client.send_message(message, r)
 """
 
-
-@eren.on_message(
-    filters.command("chatbot") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @admins_only
 async def chatbot_status(_, message):
