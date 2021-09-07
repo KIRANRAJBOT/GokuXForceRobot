@@ -157,7 +157,7 @@ TRUTH_STRINGS = (
 
 
 DARE_STRINGS = (
-   "Change your profile pic to some naked character for 3 days.",
+   "Send Your Favorite Stickers.",
    "Do a photograph reveal.",
    "Share your telegram password.",
    "Send 'I Love You' to 20 people in your PM [Private Messaging] list and share screenshots of the task.",
@@ -172,7 +172,7 @@ DARE_STRINGS = (
    "Ask for nudes from strangers and share screenshots of the task.",
    "Share screenshot from most recent chat on WhatsApp.",
    "Join/Start Voice Chat and sing a song.",
-   "Join/Start Voice Chat and say, 'Ara Ara', in sexy voice",
+   "Send more suggestions to @God_STB", 
    "Go to a random group with its Voice Chat ongoing and members speaking. Join the group and shout 'Fuck you all'. [Screen Record the task and send it in group.]",
    "Go to a random group with its Voice Chat ongoing and members speaking. Join the group and seduce a person. [Screen Record the task and send it in group.]",
    "Download a nude pic using google, PM it to a member of random Anime themed Group with caption as, 'These nudes are mine, wanna share yours?'. [Share screenshots of the task.]",
@@ -183,7 +183,7 @@ DARE_STRINGS = (
    "Join/Start Voice Chat and say, 'Onii Chan no Hentai', in sexy voice.",
    "Let someone from the players log in to your Telegram account.",
    "Send 10 most recent images from your galary.",
-   "Send more suggestions to @A_lonelyPerson", 
+   "Send more suggestions to @God_STB", 
 )
 
 TORD_STRINGS = (
