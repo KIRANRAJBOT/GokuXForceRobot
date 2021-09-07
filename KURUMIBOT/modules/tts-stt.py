@@ -24,8 +24,8 @@ import requests
 from gtts import gTTS, gTTSError
 from telethon.tl import functions, types
 
-from KURUMIBOT.services.events import register
-from KURUMIBOT.services.telethon import tbot
+from KURUMIBOT.events import register
+from KURUMIBOT.telethon import tbot
 
 IBM_WATSON_CRED_PASSWORD = get_str_key("IBM_WATSON_CRED_PASSWORD", required=False)
 IBM_WATSON_CRED_URL = get_str_key("IBM_WATSON_CRED_URL", required=False)
