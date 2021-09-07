@@ -24,7 +24,6 @@ import requests
 from gtts import gTTS, gTTSError
 from telethon.tl import functions, types
 
-from KURUMIBOT.config import get_str_key
 from KURUMIBOT.services.events import register
 from KURUMIBOT.services.telethon import tbot
 
