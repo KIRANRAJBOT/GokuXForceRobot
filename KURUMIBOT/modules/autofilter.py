@@ -23,7 +23,7 @@ __help__ = """
 
 COMMANDS 
 
-- /stream : Reply to Video or File That You Want To stream In Vc. 
-- /stop  : Stop the stream
+- `/stream` : Reply to Video or File That You Want To stream In Vc. 
+- `/stop`  : Stop the stream
 
 """
