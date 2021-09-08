@@ -16,28 +16,14 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-__mod_name__ = "Auto Filters"
+__mod_name__ = "Video Stream"
 __help__ = """
-<b> AUTO FILTERS </b>
-Goku Can filter content of a given channel automatically
-Currently support:
-     - Videos
-     - Media
-     - Documents
-     - Music
+1) Add this Bot to your Group and Make it Admin 
+2) Add @GokuMusicHelper to your Group 
 
-<b> Setting up </b>
-1) Add @GokuxRobot to your channel
-2) Make bot admin with full permissions
-2) Go back to your group
+COMMANDS 
 
-<b> Commands </b>
-- /autofilter [Channel Username] : Add given channel to autofiltering
-- /autofilterdel [Channel Username] : Remove given channel from auto filtering
-- /autofilterdelall : Remove all channels from automatic filtering
-- /autofiltersettings : Show settings panel about auto filtering channels
-
-<i> Inspired by https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2 </i>
-Original work is done by @CrazyBotsz
+- /stream : Reply to Video or File That You Want To stream In Vc. 
+- /stop  : Stop the stream
 
 """
