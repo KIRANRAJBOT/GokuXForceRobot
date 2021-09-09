@@ -1,4 +1,4 @@
-from KURUMIBOT import pbot as bot
+
 from pyrogram import filters
 
 import requests
