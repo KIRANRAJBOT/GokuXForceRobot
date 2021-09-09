@@ -117,19 +117,6 @@ Report Bugs At @XForceSupport
 __mod_name__ = "ChatBot"
 
 
-__help__ = """
-Chatbot utilizes the Kuki API and allows Cutiepii to talk and provides a more interactive group chat experience.
-
-*Commands:* 
-*Admins only:*
-   ➢ `addchat`*:* Enables Chatbot mode in the chat.
-   ➢ `rmchat`*:* Disables Chatbot mode in the chat.
-   
-Reports bugs at @Black_Knights_Union_Support
-"""
-
-__mod_name__ = "ChatBot"
-
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat)
 REMOVE_CHAT_HANDLER = CommandHandler("rmchat", rem_chat)
 CHATBOT_HANDLER = MessageHandler(
