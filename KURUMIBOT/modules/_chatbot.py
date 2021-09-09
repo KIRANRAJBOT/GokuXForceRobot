@@ -102,6 +102,15 @@ def list_all_chats(update: Update, context: CallbackContext):
    
 
 __help__ = """
+ChatBot Utilizes The Kuki Api And Allows Goku To Talk And Provide A More Interactive Group Chat Experience.
+
+*Commands:*
+*Admins Only:*
+  ➢ `/addchat`*:* Enables ChatBot Mode In The Chat
+  ➢ `/rmchat`*:* Disables ChatBot Mode In The Chat
+
+
+Report Bugs At @XForceSupport
 
 """
 
