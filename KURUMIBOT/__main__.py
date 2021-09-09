@@ -18,6 +18,7 @@ from KURUMIBOT import (
     dispatcher,
     StartTime,
     telethn,
+    pbot,
     updater)
 
 # needed to dynamically load modules
@@ -722,4 +723,5 @@ def main():
 if __name__ == '__main__':
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
+    pbot.start()
     main()
