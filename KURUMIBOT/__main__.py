@@ -85,7 +85,7 @@ Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/SonGokuXBot?startgroup=true"),    
+            text="➕ Add Me", url="t.me/GokuxRobot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
