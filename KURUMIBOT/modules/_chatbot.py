@@ -2,7 +2,7 @@ import json
 import os
 import html
 import requests
-import SaitamaRobot.modules.sql.kuki_sql as sql
+import KURUMIBOT.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
