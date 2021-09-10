@@ -151,7 +151,7 @@ PAT_GIFS = (
 )
 
 PAT_TEMPLATES = (
-    "Federal Bonk Investigation Is Here Go to horny jail Nigga",
+    "Federal Bonk Investigation Is Here Go to horny jail {user2} Nigga",
 )
 
 PAT_STICKERS = (
