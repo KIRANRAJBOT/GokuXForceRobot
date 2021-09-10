@@ -341,7 +341,7 @@ def export_data(update, context):
         reply_to_message_id=msg.message_id,
         parse_mode=ParseMode.MARKDOWN,
     )
-    os.remove("Goku-X {}.backup".format(chat_id))  # Cleaning file
+    os.remove("Sung Jin-Woo {}.backup".format(chat_id))  # Cleaning file
 
 
 # Temporary data
