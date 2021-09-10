@@ -628,8 +628,8 @@ UNWHITELIST_HANDLER = CommandHandler(("removewhitelist", "removedpagent"),
 WHITELISTLIST_HANDLER = CommandHandler(["whitelistlist", "dpagents"],
                                        whitelistlist)
 TIGERLIST_HANDLER = CommandHandler(["tigers" , "agents"], tigerlist)
-SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "omega"], supportlist)
-SUDOLIST_HANDLER = CommandHandler(["sudolist", "hydra"], sudolist)
+SUPPORTLIST_HANDLER = CommandHandler(["supportlist", "omegas"], supportlist)
+SUDOLIST_HANDLER = CommandHandler(["sudolist", "hydras"], sudolist)
 DEVLIST_HANDLER = CommandHandler(["devlist", "furylist"], devlist)
 
 dispatcher.add_handler(SUDO_HANDLER)
