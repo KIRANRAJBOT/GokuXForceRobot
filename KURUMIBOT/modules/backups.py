@@ -334,7 +334,7 @@ def export_data(update, context):
         pass
     context.bot.sendDocument(
         current_chat_id,
-        document=open("Son Goku-X {}.backup".format(chat_id), "rb"),
+        document=open("Sung Jin-Woo {}.backup".format(chat_id), "rb"),
         caption="*Successfully Exported backup:*\nChat: `{}`\nChat ID: `{}`\nOn: `{}`\n\nNote: This `Son Goku-X -Backup` was specially made for notes."
         .format(chat.title, chat_id, tgl),
         timeout=360,
