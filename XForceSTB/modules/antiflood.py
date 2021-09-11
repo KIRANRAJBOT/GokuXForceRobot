@@ -3,8 +3,8 @@ from typing import Optional, List
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from KURUMIBOT import TIGERS, WOLVES, dispatcher
-from KURUMIBOT.modules.helper_funcs.chat_status import (bot_admin,
+from XForceSTB import TIGERS, WOLVES, dispatcher
+from XForceSTB.modules.helper_funcs.chat_status import (bot_admin,
                                                            is_user_admin,
                                                            user_admin,
                                                            user_admin_no_reply)
