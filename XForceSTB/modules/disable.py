@@ -18,7 +18,7 @@ if is_module_loaded(FILENAME):
 
     from XForceSTB.modules.helper_funcs.chat_status import (
         connection_status, is_user_admin, user_admin)
-    from KURUMIBOT.modules.sql import disable_sql as sql
+    from XForceSTB.modules.sql import disable_sql as sql
     from telegram.ext.dispatcher import run_async
 
     DISABLE_CMDS = []
