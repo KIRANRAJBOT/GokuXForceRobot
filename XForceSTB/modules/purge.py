@@ -5,7 +5,6 @@ from XForceSTB import telethn
 from XForceSTB.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages, user_is_admin)
 
-
 async def purge_messages(event):
     start = time.perf_counter()
     if event.from_id is None:
