@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from KURUMIBOT import (
+from XForceSTB import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -135,7 +135,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("KURUMIBOT.modules." + module_name)
+    imported_module = importlib.import_module("XForceSTB.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
