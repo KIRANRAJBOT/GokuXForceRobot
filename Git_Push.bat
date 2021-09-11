@@ -8,7 +8,7 @@ echo.
 :: Take input for comment and thats about it
 set /p commit_title="Enter Commit title (pushes with you as author): "
 
-:: If you are reading comments to understand this part then you can go back stab yourself. 
+:: If you are reading comments to understand this part then you can go back STAB yourself. 
 echo.
 git add *
 git commit -m "%commit_title%"
