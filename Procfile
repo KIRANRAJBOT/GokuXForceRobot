@@ -1,3 +1,2 @@
-worker: python3 -m KURUMIBOT
-web: python3 -m KURUMIBOT
+worker: python3 -m XForceSTB
 ps:scale worker=1
