@@ -513,7 +513,7 @@ Examples:
  `/setbio This user is a wolf` (reply to the user)
 
 *Overall Information about you:*
- • `/info`*:* get information about a user. 
+ • `/info` or `/status`*:* get information about a user. 
  
 
 """
@@ -524,7 +524,7 @@ GET_BIO_HANDLER = DisableAbleCommandHandler("bio", about_bio)
 STATS_HANDLER = CommandHandler("stats", stats)
 ID_HANDLER = DisableAbleCommandHandler("id", get_id)
 GIFID_HANDLER = DisableAbleCommandHandler("gifid", gifid)
-INFO_HANDLER = DisableAbleCommandHandler(("info", "book"), info)
+INFO_HANDLER = DisableAbleCommandHandler(("info", "status"), info)
 
 SET_ABOUT_HANDLER = DisableAbleCommandHandler("setme", set_about_me)
 GET_ABOUT_HANDLER = DisableAbleCommandHandler("me", about_me)
