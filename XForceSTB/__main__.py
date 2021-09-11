@@ -22,10 +22,10 @@ from XForceSTB import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from KURUMIBOT.modules import ALL_MODULES
-from KURUMIBOT.modules.helper_funcs.chat_status import is_user_admin
-from KURUMIBOT.modules.helper_funcs.misc import paginate_modules
-from KURUMIBOT.modules.disable import DisableAbleCommandHandler
+from XForceSTB.modules import ALL_MODULES
+from XForceSTB.modules.helper_funcs.chat_status import is_user_admin
+from XForceSTB.modules.helper_funcs.misc import paginate_modules
+from XForceSTB.modules.disable import DisableAbleCommandHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
