@@ -24,7 +24,7 @@ jobs:
 
         with:
 
-          name:  Hirojazz/KURUMIBOT
+          name:  STBxD/GokuRobot-XForce
 
           username: ${{ secrets.DOCKER_USERNAME }}
 
