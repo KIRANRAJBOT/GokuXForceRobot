@@ -2,9 +2,9 @@
 # Default owners for everything in the repo, unless a later match takes precedence
 
 # Phoenix owns the files under blacklist thingies
-/KURUMIBOT/modules/blacklistusers.py @A_lonleyPerson
-/KURUMIBOT/modules/sql/blacklistusers_sql.py @A_lonleyPerson
+/XForceSTB/modules/blacklistusers.py @A_lonleyPerson
+/XForceSTB/modules/sql/blacklistusers_sql.py @A_lonleyPerson
 #pep8-ing the code doesn't change maker
-/KURUMIBOT/modules/paste.py @A_lonleyPerson
-/KURUMIBOT/modules/speed_test.py @A_lonleyPerson
+/XForceSTB/modules/paste.py @A_lonleyPerson
+/XForceSTB/modules/speed_test.py @A_lonleyPerson
 
