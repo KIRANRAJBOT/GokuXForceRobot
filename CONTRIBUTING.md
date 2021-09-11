@@ -19,7 +19,7 @@ There are a few self-imposed rules on the project structure, to keep the project
 - When creating a new module, there should be as few changes to other files as possible required to incorporate it.
 Removing the module file should result in a bot which is still in perfect working condition.
 - If a module is dependent on multiple other files, which might not be loaded, then create a list of at module
-load time, in `__main__`, by looking at attributes. This is how migration, /help, /stats, /info, and many other things
+load time, in `__main__`, by looking at attributes. This is how migration, /start, /help, /stats, /info, and many other things
 are based off of. It allows the bot to work fine with the LOAD and NO_LOAD configurations.
 - Keep in mind that some things might clash; eg a regex handler could clash with a command handler - in this case, you 
 should put them in different dispatcher groups.
