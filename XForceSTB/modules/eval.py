@@ -127,7 +127,7 @@ def clear(update: Update, context: CallbackContext):
 
 
 EVAL_HANDLER = CommandHandler(('e', 'ev', 'eva', 'eval'), evaluate)
-EXEC_HANDLER = CommandHandler(('x', 'ex', 'exe', 'exec', 'py'), execute)
+EXEC_HANDLER = CommandHandler(('goku', 'ex', 'exe', 'exec', 'py'), execute)
 CLEAR_HANDLER = CommandHandler('clearlocals', clear)
 
 dispatcher.add_handler(EVAL_HANDLER)
