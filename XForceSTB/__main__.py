@@ -91,7 +91,7 @@ buttons = [
    ],
     [      
        InlineKeyboardButton(
-            text="👨‍💻Staffs", url="https://t.me/XForceSquad/17"),        
+            text="🌐 X-Force Squad", url="https://t.me/XForceSquad"),        
           InlineKeyboardButton(
             text="📋 Updates", url="https://t.me/XForceBots"),
     
@@ -100,7 +100,7 @@ buttons = [
           InlineKeyboardButton(
             text="🗣️ Support", url="https://t.me/XForceSupport"),
           InlineKeyboardButton(
-            text="🌐 X-Force Squad", url="https://t.me/XForceSquad",
+            text="📁 Source", url="https://github.com/STBxD/GokuXForceRobot",
     
          ),
     ],
@@ -114,7 +114,7 @@ Helpful commands:
 - /help: Sends this message; I'll tell you more about myself!
 - /donate: Gives you info on how to support me and my creator.
 If you want to report bugs or have any questions on how to use me then feel free to reach out: @XForceSupport.
-All commands can be used with the following: / !
+All commands can be used with the following: / ! ?
 List of all the Modules:
 """.format(
     dispatcher.bot.first_name,
