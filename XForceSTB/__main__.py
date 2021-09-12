@@ -91,7 +91,7 @@ buttons = [
    ],
     [      
        InlineKeyboardButton(
-            text="🌐 X-Force Squad", url="https://t.me/XForceSquad"),        
+            text="🌐 X-Force", url="https://t.me/XForceSquad"),        
           InlineKeyboardButton(
             text="📋 Updates", url="https://t.me/XForceBots"),
     
