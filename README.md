@@ -6,7 +6,7 @@
 * If You're Going To Fork This Repo Then Don't Forget To Give a Star ✯
 
 
-### Telegram Group
+### Support Group
 <p align="left">
 <a href="https://t.me/XForceSupportChat" alt="Support!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
